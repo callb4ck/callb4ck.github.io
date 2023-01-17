@@ -1,130 +1,48 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>UIkit test</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.13/dist/css/uikit.min.css" />
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.13/dist/js/uikit.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.13/dist/js/uikit-icons.min.js"></script>
-
-        <style>
-/*
-li {
-    padding-top: 1em;
-}
-*/
-
-body {
-    background-color: black;
-}
-
-.darkbg {
-    background-color: #212121;
-}
-
-.darkbgopac {
-    background-color: rgba(33,33,33,0.75);
-}
-
-.noselect {
- -webkit-touch-callout: none;
-  -webkit-user-select: none;
-   -khtml-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-        </style>
-
-    </head>
-
-    <body class="uk-light darkbg" style="position:fixed; width: 100%; height: 100%;">
-
-        <nav class="uk-navbar-container" style="background: #2b2b2b;" uk-navbar>
-            <div class="uk-navbar-left">
-
-                <ul class="uk-navbar-nav uk-padding uk-padding-remove-top uk-padding-remove-bottom">
-                    <li>
-                        <a href="#">Item1</a>
-                        <div class="uk-navbar-dropdown" style="background: #2b2b2b;">
-                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="#">SubItem1</a></li>
-                                <li><a href="#">SubItem2</a></li>
-                                <li><a href="#">SubItem3</a></li>
-                                <li><a href="#">SubItem4</a></li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="#">Item2</a>
-                        <div class="uk-navbar-dropdown darkbg" style="background: #2b2b2b;">
-                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="#">SubItem1</a></li>
-                                <li><a href="#">SubItem2</a></li>
-                                <li><a href="#">SubItem3</a></li>
-                                <li><a href="#">SubItem4</a></li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="#">Item3</a>
-                        <div class="uk-navbar-dropdown darkbg" style="background: #2b2b2b;">
-                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="#">SubItem1</a></li>
-                                <li><a href="#">SubItem2</a></li>
-                                <li><a href="#">SubItem3</a></li>
-                                <li><a href="#">SubItem4</a></li>
-                            </ul>
-                        </div>
-                    </li>
+---
+layout: default
+---
+<section id="intro">
+    <div class="flex-row-between">
+        <h1>{{ site.greetings }}</h1>
+        <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
+            <div></div>
+        </button>
+    </div>
+    <div class="bio">
+	    {{ site.description }}
+        <p>
+	    <a href="{{ site.url }}{{ site.baseurl }}/about/">> About me</a>
+        </p>
+    </div>
 
 
-                </ul>
-
-            </div>
-
-            <div class="uk-navbar-right uk-padding uk-padding-remove-top uk-padding-remove-bottom">
-                logo
-            </div>
-        </nav>
-
-        <div class="uk-position-relative uk-visible-toggle uk-light uk-position-large" tabindex="-1" uk-slideshow="animation: push; ratio: false;">
-
-            <ul class="uk-slideshow-items uk-padding-bottom" uk-height-viewport="offset-top: true; offset-bottom: true;">
-                <li class="uk-padding">
-                    <img src="https://images.pexels.com/photos/3952549/pexels-photo-3952549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small darkbgopac">
-                        <h3 class="uk-margin-remove">Szabolcs Toth</h3>
-                        <p class="uk-margin-remove"><span uk-icon="instagram"></span>  @szabolcs.taking.pictures</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="https://images.pexels.com/photos/1002722/pexels-photo-1002722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small darkbgopac">
-                        <h3 class="uk-margin-remove">Eberhard Grossgasteiger</h3>
-                        <p class="uk-margin-remove"><span uk-icon="instagram"></span>  @eberhard_grossgasteiger</p>
-                    </div>
-                </li>
-
-                <li>
-                    <img src="https://images.pexels.com/photos/2422066/pexels-photo-2422066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small darkbgopac">
-                        <h3 class="uk-margin-remove">Emre Can</h3>
-                        <p class="uk-margin-remove"><span uk-icon="instagram"></span>  @acer.emree</p>
-                    </div>
-                </li>
-            </ul>
-
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-
-        </div>
+</section>
 
 
-        <h1>hh</h1>
 
-    </body>
-</html>
+<div class="search-article">
+    <label for="search-input" aria-hidden="true">
+        <!-- Magnifier -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-search">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </label>
+
+    <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
+    <ul id="search-results"></ul>
+</div>
+
+<section class="posts" id="Blog">
+    <h2>BLOG</h2>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+		<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

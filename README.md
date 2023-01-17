@@ -1,2 +1,3 @@
-# dumbmahreeo.github.io
-My github pages
+# A simple blog made with Gesko
+
+https://github.com/DavideBri/Gesko
