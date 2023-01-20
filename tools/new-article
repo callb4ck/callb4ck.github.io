@@ -1,0 +1,23 @@
+#!/usr/bin/env perl
+
+my $title = join(" ", @ARGV);
+
+my $filetitle = join("-", @ARGV);
+
+$filetitle =~ tr/A-Z/a-z/;
+
+my $filename = `date '+%Y-%m-%d'`;
+
+$filename =~ s/\s+$//;
+$filename .= "-$filetitle.md";
+
+open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
+
+print $fh <<EOF;
+---
+layout: post
+title: $title
+---
+EOF
+
+close($fh)
