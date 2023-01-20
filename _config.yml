@@ -1,8 +1,8 @@
 site: Test123
 title: test123
-greetings: Hi 👋
+greetings: Hello there!
 description: >-
-  Blog test 123
+  You can call me Max, I'm an italian computer engineering student and this is my little website.
 lang: en-US
 timezone:  Europe/Rome
 repo: https://github.com/DumbMahreeo/dumbmahreeo.github.io # site repo [optional]
