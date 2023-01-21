@@ -32,7 +32,7 @@ entirely separated tools along with a new type of project setup.
 
 Except that it's exactly what happened with [Tauri](https://tauri.app/)!
 
-I'm only want a half-decent, standardized, simple way to build software.
+I only want a half-decent, standardized, simple way to build software.
 Am I asking too much?
 
 And I would be more than happy to use makefiles or whatever the language tells me to use, but with how things are going
