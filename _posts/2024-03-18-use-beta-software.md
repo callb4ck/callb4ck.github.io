@@ -4,7 +4,7 @@ title: Use beta software!
 ---
 Let me explain.
 
-Many of us avoid alpha, beta, release-candidate, prerelease, whatever you wanna call software that is still unfinished. And that's completely legit..
+Many of us avoid alpha, beta, release-candidate, prerelease, whatever you wanna call software that is still unfinished. And that's completely legit.
 
 But I strongly believe that there can be something magical in the use of beta software.
 
