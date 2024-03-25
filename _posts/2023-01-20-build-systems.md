@@ -55,3 +55,15 @@ But no, because enough is never enough.
 Can't we just accept that something is simple, yet complete without declaring it dead?
 
 Perhaps this is the single rule that has always been true in the software development world. Enough is never enough.
+
+```
+ _______________________ 
+< Gradle ain't grooving >
+ ----------------------- 
+        \   ^__^
+         \  (xx)\_______
+            (__)\       )\/\
+             U  ||----w |
+                ||     ||
+
+```

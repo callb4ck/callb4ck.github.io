@@ -211,3 +211,15 @@ Before that I was comfortably using Fedora Workstation, so you might want to tak
 Yes I did. But please let me know anyway! Send me an email if you think this article needs to be updated!
 
 Do also note though, that I didn't insert some distros on purpose, because either I didn't like the project or felt that it was not worth the mention.
+
+```
+ _____________ 
+< I use mooOS >
+ ------------- 
+        \   ^__^
+         \  (xx)\_______
+            (__)\       )\/\
+             U  ||----w |
+                ||     ||
+
+```

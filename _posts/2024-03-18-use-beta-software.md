@@ -23,3 +23,15 @@ And the best part in all of this is, you are helping a new project grow and shap
 # Conclusions
 
 Use betas if you can, if you have enough time on your hands or even an hour a day, you can be of great help to projects out there, even if you don't believe so.
+
+```
+ ____________________ 
+< Where do I report? >
+ -------------------- 
+        \   ^__^
+         \  (xx)\_______
+            (__)\       )\/\
+             U  ||----w |
+                ||     ||
+
+```
