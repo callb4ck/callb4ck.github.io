@@ -11,10 +11,10 @@ layout: default
     <div class="bio">
 	    {{ site.description }}
         <p>
-            <a href="https://github.com/DumbMahreeo">> GitHub</a>
+            <a href="https://github.com/DumbMahreeo">> GitHub - DumbMahreeo</a>
         </p>
         <p>
-            <a href="mailto: max@segf.net">> Email</a>
+            <a id="email-ref" href="">> Email - &ltmax (at) segf (dot) net&gt </a>
         </p>
     </div>
 
@@ -49,3 +49,7 @@ layout: default
         {% endfor %}
     </ul>
 </section>
+
+<script>
+    document.getElementById("email-ref").href = ("mai" + "lto:" + "ma" + "x@" + "seg" + "f.net")
+</script>
