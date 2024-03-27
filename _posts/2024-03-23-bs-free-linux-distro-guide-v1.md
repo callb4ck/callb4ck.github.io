@@ -103,7 +103,7 @@ Linux Mint has a fixed release model, is based on Ubuntu and features the Cinnam
 
 Mint's team has all my respect for all the work they do with their desktop environment, Cinnamon, and for trying to create a reliable Ubuntu based system without all the damage that Canonical did with Snap on Ubuntu.
 
-Cinnamon's look and feel can make new users feel right at home and old users will find that having a stable and reliable ubuntu system free of Ubuntu bullshit is nothing short of a pleasant experience.
+Cinnamon's look and feel can make new users feel right at home and old users will find that having a stable and reliable Ubuntu based system free of Ubuntu bullshit is nothing short of a pleasant experience.
 
 ### Fedora Workstation
 
@@ -117,7 +117,7 @@ The release cycle while being fixed is still faster than many other distribution
 
 The project is supported by a company while staying a community effort and is basically the testing ground for RedHat Enterprise Linux (RHEL).
 
-*WARNING: There is a small problem with codecs on AMD graphics cards. It's easily fixable but please be aware of this*
+*WARNING: There is a small problem with codecs on AMD graphics cards. It's easily fixable but please be aware of this.*
 
 ## Let's talk fixed
 
@@ -139,7 +139,7 @@ It inherits a solid base from RHEL while being driven by a community and a found
 
 Just like Debian, Rocky is extremely stable and not very up to date, and exactly like Debian it's extremely reliable.
 
-*NOTE: It's worth mentioning that similar projects exist such as Alma Linux*
+*NOTE: It's worth mentioning that similar projects exist, such as Alma Linux.*
 
 ## Rolling downhill
 
@@ -196,7 +196,7 @@ The default shell is in a Distrobox environment called vso-pico and you can mana
 
 Again you can use Flatpak to install other packages.
 
-*WARNING: At the time of writing VanillaOS 2 is still in beta, I'd suggest waiting for the stable release before daily driving it*
+*WARNING: At the time of writing VanillaOS 2 is still in beta, I'd suggest waiting for the stable release before daily driving it.*
 
 ## What I'm currently using.
 
