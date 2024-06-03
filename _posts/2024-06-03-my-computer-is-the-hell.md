@@ -35,3 +35,14 @@ But why would we need to modify our system when we can just use a container? In 
 Slowly but surely, it's all coming together to actually bring a safer and trouble-free desktop experience for everyone for the first time in the Linux world!
 
 Soon VanillaOS, Fedora Atomic (perhaps also UBlue?) and OpenSUSE MicroOS will be what we'll suggest to newbies, allowing them to have a functioning system that won't break on them for reason they won't understand yet.
+
+```
+ ____________ 
+< Immootable >
+ ------------ 
+        \   ^__^
+         \  (xx)\_______
+            (__)\       )\/\
+             U  ||----w |
+                ||     ||
+```
